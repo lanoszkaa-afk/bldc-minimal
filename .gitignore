@@ -1,0 +1,22 @@
+# Arduino build artifacts (osobne build/ przy kazdym szkicu)
+**/build/
+*.hex
+*.elf
+*.eep
+*.bin
+
+# Flutter generated (zostawiamy windows/ i android/ jako kod platformy)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/.gradle/
+**/local.properties
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+
+# Logi pomiarowe
+*.csv
+*.log
